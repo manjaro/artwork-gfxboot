@@ -1,10 +1,11 @@
-# Kazakh translation for boot loader
+# Kazakh translations for boot loader
 # Copyright (C) 2005 SUSE Linux GmbH
+#               2013 The Chakra Project
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2014-11-19 11:11+0600\n"
+"PO-Revision-Date: 2014-11-19 11:38+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
@@ -38,18 +39,6 @@ msgstr "Жалғастыру"
 #. txt_install
 msgid "Installation"
 msgstr "Орнату"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Қолмен орнату"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Орнату--ACPI сөндірулі"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Орнату--Қауіпсіз баптаулар"
 
 #. txt_safe_linux
 msgid "Linux--Safe Settings"
@@ -91,7 +80,7 @@ msgstr "Көмек"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Бастау..."
+msgstr "Іске қосылу..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -158,25 +147,6 @@ msgstr ""
 #. txt_password_title
 msgid "Password"
 msgstr "Пароль"
-
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Драйверге жаңартуы бар иілгіш дискісін дайындаңыз."
-
-#. dvd warning title
-#. txt_dvd_warning_title
-msgid "DVD Error"
-msgstr "DVD қатесі"
-
-#. txt_dvd_warning2
-msgid ""
-"This is a two-sided DVD. You have booted from the second side.\n"
-"\n"
-"Turn the DVD over then continue."
-msgstr ""
-"Бұл - қос жақты DVD. Сіз оның екінші жағынан жүктелдіңіз.\n"
-"\n"
-"DVD дискісін аударыңыз, одан кейін жалғастырыңыз."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -263,18 +233,6 @@ msgstr "Басқа опциялар"
 msgid "Language"
 msgstr "Тіл"
 
-#. txt_apic
-msgid "Installation--IOAPIC Enabled"
-msgstr "Орнату--IOAPIC іске қосулы"
-
-#. txt_noapic_install
-msgid "Installation--IOAPIC Disabled"
-msgstr "Орнату--IOAPIC сөндірулі"
-
-#. txt_nolapic_install
-msgid "Installation--Local APIC Disabled"
-msgstr "Орнату--Жергілікті APIC сөндірулі"
-
 #. txt_yes
 msgid "Yes"
 msgstr "Иә"
@@ -331,16 +289,6 @@ msgstr "Мәтіндік режим"
 msgid "Firmware Test"
 msgstr "Firmware сынау"
 
-#. txt_dud_file_msg
-msgid ""
-"To load driver updates directly from CD-ROM,\n"
-"enter the driver update file names (separated\n"
-"by commas ',') here:\n"
-msgstr ""
-"Драйвер жаңартуларын тікелей CD-ROM-нан жүктеу\n"
-"үшін, драйвер жаңартулары бар файл аттарын\n"
-"осында енгізіңіз (үтірлермен ажыратып ','):\n"
-
 #. install source menu title
 #. ** please keep it really short (comparable to the english text) **
 #. txt_install_source
@@ -353,18 +301,12 @@ msgstr "Бастапқы код"
 msgid "Video Mode"
 msgstr "Видео режимі"
 
-#. driver update dialog title
-#. -> txt_dud_file_msg
-#. txt_driver_update2
-msgid "Driver Update"
-msgstr "Драйвер жаңартуы"
-
 #. menu label for selecting (cpu) architecture
 #. like i386, x86-64, ppc
 #. ** please keep it really short (comparable to the english text) **
 #. txt_arch
 msgid "Arch"
-msgstr "Арх-ра"
+msgstr "Архит-ра"
 
 #. menu label for selecting some (linux) kernel variant
 #. ** please keep it really short (comparable to the english text) **
@@ -395,27 +337,87 @@ msgstr "ACPI-сіз"
 msgid "No Local APIC"
 msgstr "Local APIC-сіз"
 
-#. main menu: start in system repair mode
-#. txt_repain_system
-msgid "Repair Installed System"
-msgstr "Орнатылған жүйені қалпына келтіру"
-
-#. menu item
-#. txt_mediacheck
-msgid "Check Installation Media"
-msgstr "Орнату тасушысын тексеру"
-
 #. menu item for keyboard layout (please keep it short)
 #. txt_keyboard
 msgid "Keyboard"
 msgstr "Пернетақта"
 
-#. menu title
-#. txt_dud_download
-msgid "Download Driver Update"
-msgstr "Драйвер жаңартуын жүктеп алу"
+#. menu item
+#. txt_http_proxy
+msgid "HTTP Proxy"
+msgstr "HTTP прокси"
 
-#. input label
-#. txt_dud_enter_url
-msgid "Enter Driver Update URL\n"
-msgstr "Драйверді жаңарту сілтемесін енгізіңіз\n"
+#. menu item
+#. txt_network_config
+msgid "Network Config"
+msgstr "Желіні баптау"
+
+#. menu item
+#. txt_no_network
+msgid "No Network"
+msgstr "Желі жоқ"
+
+#. short menu item for manual network config (NOT some kind of manual)
+#. txt_manual_network
+msgid "Manual"
+msgstr "Қолмен"
+
+#. dialog title for manual network config
+#. txt_manual_network_title
+msgid "Manual Network Config"
+msgstr "Желіні қолмен баптау"
+
+#. label for ip address
+#. txt_host_ip
+msgid "Host IP\n"
+msgstr "Хост IP адресі\n"
+
+#. label for gateway ip
+#. txt_gateway_ip
+msgid "Gateway\n"
+msgstr "Шлюз\n"
+
+#. label for dns domain name (like 'opensuse.org')
+#. txt_domain_name
+msgid "Domain Name\n"
+msgstr "Домен аты\n"
+
+#. label for nameserver list
+#. txt_nameservers
+msgid "Nameservers (separated by ',')\n"
+msgstr "DNS серверлері (',' арқ. ажыратыңыз)\n"
+
+#. label for netmask; 'Host IP' refers to label txt_host_ip above
+#. txt_netmask
+msgid ""
+"Netmask\n"
+"(or use '/N' notation with Host IP)\n"
+msgstr ""
+"Желі маскасы\n"
+"(немесе хост IP адресімен '/N' жазылу түрін қолданыңыз)\n"
+
+#. label for Live CD installation
+#. txt_live_kde
+msgid "Live System (KDE)"
+msgstr "Тірі жүйе (KDE)"
+
+#. label for Live CD installation
+#. txt_live_gnome
+msgid "Live System (GNOME)"
+msgstr "Тірі жүйе (GNOME)"
+
+#. txt_start
+msgid "Start Manjaro Linux"
+msgstr "Manjaro Linux іске қосу"
+
+#. txt_nonfree
+msgid "Start (non-free drivers)"
+msgstr "Іске қосу (еркін емес драйверлер)"
+
+#. txt_hdt
+msgid "Hardware Detection Tool"
+msgstr "Құрылғыларды анықтау сайманы"
+
+#. txt_no_kms
+msgid "No KMS"
+msgstr "KMS жоқ"
