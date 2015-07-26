@@ -17,7 +17,7 @@ HOW-TO
 
 First you need to make sure you have CPIO and GFXBOOT installed.
 
-Run 'make' for creating the theme. This will generate a folder called 'isolinux', just copy the folder into the 'manjaro-tools-iso-profiles/shared/'-folder, replacing completely the folder 'isolinux' and all it's contents.
+Run 'make' for creating the theme. This will generate a folder called 'isolinux', just copy the folder into the 'manjaro-tools-iso-profiles/shared/'-folder, replacing completely the folder 'isolinux' and all its contents.
 
 Run 'make clean' for cleaning completely the build.
 
