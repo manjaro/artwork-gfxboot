@@ -81,6 +81,7 @@
   [ "th_TH" "us"                   false "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22"    "th" ] % Thai
   [ "tr_TR" "trq"                  false "Türkçe"                                        "tr" ] % Turkish
   [ "uk_UA" "ua"                   false "Українська"                                    "ua" ] % Ukrainian
+  [ "uz_UZ" "uz"                   false "O'zbekcha"                                     "uz" ] % Uzbek
   [ "vi_VN" "us"                   false "Tiếng Việt"                                    "vn" ] % Vietnamese
   [ "wa_BE" "be-latin1"            false "Walon"                                         "be" ] % Walloon
   [ "xh_ZA" "us"                   false "isiXhosa"                                      "us" ] % Xhosa
