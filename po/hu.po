@@ -405,7 +405,7 @@ msgstr "Elindítás"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr "Elindítás (zárt meghajtóval)"
+msgstr "Elindítás (zárt illesztőprogramokkal)"
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
