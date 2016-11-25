@@ -2,14 +2,14 @@
 # Copyright (C) 2005 SUSE Linux GmbH
 #               2013 The Chakra Project
 #               2013 Manjaro Linux
-# 
+#
 # Translators:
 # Wojciech Kapusta <wojciech@aviary.pl>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: Manjaro Linux\n"
 "Report-Msgid-Bugs-To: http://bugs.manjaro.org\n"
-"PO-Revision-Date: 2013-02-02 17:05+0000\n"
+"PO-Revision-Date: 2016-11-23 21:28+0100\n"
 "Last-Translator: Manuel Tortosa <manutortosa@chakra-project.org>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/chakra-project/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. ok button label
 #. txt_ok
@@ -71,7 +73,9 @@ msgstr "Zamykanie..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr "Nastąpi zamknięcie graficznego menu rozruchowego\ni uruchomienie interfejsu tekstowego."
+msgstr ""
+"Nastąpi zamknięcie graficznego menu rozruchowego\n"
+"i uruchomienie interfejsu tekstowego."
 
 #. txt_help
 msgid "Help"
@@ -88,7 +92,10 @@ msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
-msgstr "Wczytywanie jądra systemu Linux\n\n\n"
+msgstr ""
+"Wczytywanie jądra systemu Linux\n"
+"\n"
+"\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
@@ -96,7 +103,10 @@ msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
-msgstr "Wczytywanie memtest86\n\n\n"
+msgstr ""
+"Wczytywanie memtest86\n"
+"\n"
+"\n"
 
 #. info box title
 #. txt_info_title
@@ -123,7 +133,9 @@ msgstr "Proszę umieścić w napędzie dysk startowy %u."
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr "W napędzie znajduje się dysk startowy %u.\nProszę włożyć dysk startowy %u."
+msgstr ""
+"W napędzie znajduje się dysk startowy %u.\n"
+"Proszę włożyć dysk startowy %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -131,7 +143,9 @@ msgstr "W napędzie znajduje się dysk startowy %u.\nProszę włożyć dysk star
 msgid ""
 "This is not a <product> boot disk.\n"
 "Insert boot disk %u."
-msgstr "To nie jest dysk startowy <product>.\nProszę włożyć dysk startowy %u."
+msgstr ""
+"To nie jest dysk startowy <product>.\n"
+"Proszę włożyć dysk startowy %u."
 
 #. password dialog title
 #. txt_password_title
@@ -382,7 +396,9 @@ msgstr "Serwery nazw (rozdzielone ',')\n"
 msgid ""
 "Netmask\n"
 "(or use '/N' notation with Host IP)\n"
-msgstr "Maska sieci\n(lub użyj zapisu '/N' w adresie hosta)\n"
+msgstr ""
+"Maska sieci\n"
+"(lub użyj zapisu '/N' w adresie hosta)\n"
 
 #. label for Live CD installation
 #. txt_live_kde
@@ -396,16 +412,16 @@ msgstr ""
 
 #. txt_start
 msgid "Start Manjaro Linux"
-msgstr ""
+msgstr "Uruchom Manjaro Linux"
 
 #. txt_nonfree
 msgid "Start (non-free drivers)"
-msgstr ""
+msgstr "Uruchom (własnościowe sterowniki) "
 
 #. txt_hdt
 msgid "Hardware Detection Tool"
-msgstr ""
+msgstr "Narzędzie wykrywania Sprzętu"
 
 #. txt_no_kms
 msgid "No KMS"
-msgstr ""
+msgstr "Bez KMS"
