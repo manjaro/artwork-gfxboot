@@ -1,0 +1,22 @@
+<h3>
+<a name="o_acpi">Parametry jądra (kernel): acpi</a>
+</h3>
+
+<p>
+ACPI (Advanced Configuration and Power Interface) jest
+standardem definiującym zasilanie oraz konfigurację zarządzania interfejsami
+pomiędzy systemem operacyjnym a BIOSem. Domyślnie <em>acpi</em> jest 
+włączane gdy wykryty jest BIOS nowszy niż z 2000 roku. Jest kilka powszechnie
+używanych parametrów służących do kontroli zachowania ACPI:
+<ul>
+  <li><em>pci=noacpi</em> -- nie używaj ACPI do zarządzania przerwaniami PCI</li>
+  <li><em>acpi=oldboot</em> -- tylko część ACPI odpowiedzialna za rozruch jest aktywowana</li>
+  <li><em>acpi=off</em> -- całkowite wyłączenie ACPI</li>
+  <li><em>acpi=force</em> -- wymuś użycie ACPI nawet jeśli twój BIOS jest sprzed 2000 roku</li>
+</ul>
+</p>
+
+<p>
+Na współczesnych komputerach zastępuje 
+starszy system<a href="#o_apm">apm</a>.
+</p>
